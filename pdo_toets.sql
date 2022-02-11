@@ -29,11 +29,11 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `pizza`;
 CREATE TABLE IF NOT EXISTS `pizza` (
-  `id` int(100) NOT NULL AUTO_INCREMENT,
-  `bodemformaat` varchar(30) NOT NULL,
-  `saus` varchar(30) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `bodemformaat` varchar(50) NOT NULL,
+  `saus` varchar(50) NOT NULL,
   `pizzatoppings` varchar(30) NOT NULL,
-  `kruiden` varchar(30) NOT NULL,
+  `kruiden` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
